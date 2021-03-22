@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-size: 2rem;
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px 10px;
+  height: 50%;
+  background-color: aqua;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+
+.fibo {
+  text-decoration: none;
+}
+
+.fibo:hover {
+  text-decoration: none;
+  background-color: burlywood;
+}
+
+.rever {
+  text-decoration: none;
+}
+
+.rever:hover {
+  text-decoration: none;
+  background-color: burlywood;
+}
+
+.back {
+  font-size: 2rem;
+  margin: 20px;
+}

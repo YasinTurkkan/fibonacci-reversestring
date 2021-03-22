@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reverse String</title>
+  <script src="app.js"></script>
+        <style>
+          .reverseContainer {
+            border: 5px solid red;
+          }
+        </style>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  <div class="reverseContainer">
+     <h1>Your Reverse String is: <span style="color:blue" id="reverseResult"></span></h1>
+  </div>
+  <div class="back">
+    <a href="index.html"> Back to Home</a>
+  </div>
+
+  <script>
+    document.getElementById("reverseResult").innerHTML = reverseString(prompt('Enter the string you want to see in reverse:'));
+  </script>
+</body>
+</html>
